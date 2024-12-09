@@ -51,7 +51,24 @@ margin-top: 27px;
 font-size: 14px;
 
 }
-ul lu{
-
+ul li a{
+    text-decoration: none;
+    color: rgb(69, 48, 16);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
 }
-]
+ ul li a:hover{
+    color: chocolate;
+ }
+ .search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+ font-family: 'Courier New', Courier, monospace;
+ width: 200px;
+ height: 40px;
+ background: transparent;
+}
